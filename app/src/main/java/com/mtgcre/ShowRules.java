@@ -30,6 +30,7 @@ public class ShowRules extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_rules);
+        getSupportActionBar().setTitle("Results");
 
         Intent intent = getIntent();
         SearchEngine searchEngine = InitActivity.getSearchEngine();

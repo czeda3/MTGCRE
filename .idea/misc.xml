@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/layout/activity_init.xml" value="0.25" />
         <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/layout/activity_main.xml" value="0.35190217391304346" />
+        <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/layout/activity_search.xml" value="0.20923913043478262" />
         <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/layout/activity_show_deep_rules.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/layout/activity_show_rules.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/layout/content_scrolling.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/menu/menu_show_rules.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dani/AndroidStudioProjects/MTGCRE/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.223" />
       </map>
     </option>
   </component>

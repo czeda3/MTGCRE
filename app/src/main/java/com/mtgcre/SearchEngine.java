@@ -242,9 +242,12 @@ public class SearchEngine {
         }
         Set<String> distinctIndexes = new LinkedHashSet<>(allIndexes);
 
+        /** Cut on the indexes **/
+        //distinctIndexes.remove("abil");
+
         for (String index : distinctIndexes) {
             IndexData indexdata = new IndexData(index, this.documents);
-            inverseIndexes.putIfAbsent(index ,indexdata);
+            inverseIndexes.putIfAbsent(index, indexdata);
         }
     }
 

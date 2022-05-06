@@ -13,10 +13,11 @@
             android:name=".Search"
             android:exported="false" />
         <activity
-            android:name=".ShowDeepRules"
-            android:exported="false" />
-        <activity
             android:name=".ShowRules"
+            android:exported="false"
+            android:parentActivityName=".Search" />
+        <activity
+            android:name=".ShowDeepRules"
             android:exported="false"
             android:parentActivityName=".Search" />
         <activity

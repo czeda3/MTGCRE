@@ -27,8 +27,11 @@ public class ShowDeepRules extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_deep_rules);
 
+
         Intent intent = getIntent();
         String clickedRule = intent.getStringExtra(ShowRules.EXTRA_CLICKEDITEM);
+        getSupportActionBar().setTitle("Rules related to "+clickedRule);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         clickedRule = getOnlyRuleNumber(clickedRule);
 
         SearchEngine se = InitActivity.getSearchEngine();
